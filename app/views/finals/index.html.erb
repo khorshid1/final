@@ -1,0 +1,9 @@
+<h1>Your Packing Lists</h1>
+
+<% @packs = Pack.all %>
+
+<% @packs.each do |pack| %>
+  <p><%= pack.name %></p>
+<% end %>
+
+
