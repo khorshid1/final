@@ -9,7 +9,7 @@
 puts "Deleting all records from the database..."
 User.delete_all
 Trip.delete_all
-City.delete_all
+City.delete_all 
 Item.delete_all
 Pack.delete_all
 
