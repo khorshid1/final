@@ -1,9 +1,9 @@
-<h1>Your Packing Lists</h1>
+<h1>These are all your Packing Lists</h1>
 
 <% @packs = Pack.all %>
 
 <% @packs.each do |pack| %>
-  <p><%= pack.name %></p>
+  <p><%= pack.trip_id %></p>
 <% end %>
 
 

@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
-  get '/final', to: 'final#pack'
+
+  resources :finals
+
+end
+  #List of packing lists
+  #get '/finals', to: 'finals#index'
+
+  #One packing list
+  #get '/finals/:id', to: 'finals#show'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -54,4 +64,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
