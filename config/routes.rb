@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :finals
+  resources :packs
 
 end
   #List of packing lists
